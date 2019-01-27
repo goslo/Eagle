@@ -163,8 +163,6 @@
 <wire x1="40" y1="64" x2="0" y2="64" width="0" layer="20"/>
 <wire x1="0" y1="64" x2="0" y2="0" width="0" layer="20"/>
 <hole x="4" y="59" drill="3"/>
-<text x="18" y="5" size="1.778" layer="21">USB Host Adapter</text>
-<text x="20" y="2" size="1.778" layer="21">Jan 2019 V0.1</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
