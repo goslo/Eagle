@@ -772,13 +772,13 @@ KS-S stereo microphone/headphone jack
 </signal>
 <signal name="GND">
 <contactref element="J3" pad="2"/>
-<polygon width="0" layer="16">
+<polygon width="0.5" layer="16">
 <vertex x="0" y="64"/>
 <vertex x="0" y="0"/>
 <vertex x="35" y="0"/>
 <vertex x="35" y="64"/>
 </polygon>
-<polygon width="0" layer="1">
+<polygon width="0.5" layer="1">
 <vertex x="0" y="64"/>
 <vertex x="0" y="0"/>
 <vertex x="35" y="0"/>
@@ -816,14 +816,13 @@ KS-S stereo microphone/headphone jack
 <wire x1="30.48" y1="19.304" x2="30.617" y2="19.43" width="0.508" layer="1"/>
 <wire x1="27.94" y1="19.304" x2="27.823" y2="19.43" width="0.508" layer="1"/>
 </signal>
-<signal name="N$2">
-<contactref element="R2" pad="1"/>
+<signal name="N$1">
 <contactref element="JP1" pad="9"/>
-<wire x1="25.908" y1="47.752" x2="23.368" y2="50.292" width="0.508" layer="16"/>
-<wire x1="25.908" y1="32.004" x2="25.908" y2="47.752" width="0.508" layer="16"/>
-<wire x1="22.86" y1="28.956" x2="25.908" y2="32.004" width="0.508" layer="16"/>
-<wire x1="23.368" y1="50.292" x2="23.25" y2="50.76" width="0.508" layer="16"/>
-<wire x1="22.86" y1="28.956" x2="22.37" y2="28.75" width="0.508" layer="16"/>
+<contactref element="R2" pad="1"/>
+<wire x1="23.25" y1="50.3752625" x2="23.25" y2="50.76" width="0.508" layer="16"/>
+<wire x1="25.908" y1="32.288" x2="25.908" y2="47.7172625" width="0.508" layer="16"/>
+<wire x1="25.908" y1="47.7172625" x2="23.25" y2="50.3752625" width="0.508" layer="16"/>
+<wire x1="22.37" y1="28.75" x2="25.908" y2="32.288" width="0.508" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

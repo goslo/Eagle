@@ -4090,14 +4090,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="154.94" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TX" class="0">
+<net name="N$1" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="9"/>
-<wire x1="149.86" y1="162.56" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="162.56" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="162.56" x2="170.18" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="162.56" x2="175.26" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
-<label x="154.94" y="162.56" size="1.778" layer="95"/>
+<wire x1="170.18" y1="149.86" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
