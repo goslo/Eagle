@@ -163,8 +163,6 @@
 <wire x1="164.93" y1="99.73" x2="1.27" y2="99.73" width="0" layer="20"/>
 <wire x1="1.27" y1="99.73" x2="0" y2="0" width="0" layer="20"/>
 <hole x="142" y="8" drill="3"/>
-<text x="50.2" y="1.2" size="1.778" layer="21">Midi Monitor</text>
-<text x="68.4" y="1.6" size="1.778" layer="21">Jan 2019 V0.1</text>
 </plain>
 <libraries>
 <library name="jasons_stuff">
