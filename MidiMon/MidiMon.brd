@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -688,6 +688,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="1X03" urn="urn:adsk.eagle:footprint:37678/1" library_version="1">
+<description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIN5-RA-PTH" urn="urn:adsk.eagle:package:38294/1" type="box" library_version="1">
@@ -714,6 +752,19 @@ CONN_01
 </description>
 <packageinstances>
 <packageinstance name="1X01"/>
+</packageinstances>
+</package3d>
+<package3d name="1X03" urn="urn:adsk.eagle:package:38063/1" type="box" library_version="1">
+<description>Plated Through Hole - 3 Pin
+Specifications:
+Pin count:3
+Pin pitch:0.1"
+
+Example device(s):
+CONN_03
+</description>
+<packageinstances>
+<packageinstance name="1X03"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1626,16 +1677,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="87.024659375" y="92.75758125" size="1.27103125" layer="25" rot="R180"/>
 <attribute name="PACKAGE" value="HC49/US ECS International" x="-29.74" y="225.18" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="4.5" y="76.5" smashed="yes">
-<attribute name="VALUE" x="3.23" y="74.976" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
-</element>
-<element name="SW1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="4.5" y="81" smashed="yes">
-<attribute name="NAME" x="6.73" y="80.897" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="3.23" y="79.476" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
-</element>
-<element name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X01" package3d_urn="urn:adsk.eagle:package:38028/1" value="" x="4.5" y="85.5" smashed="yes">
-<attribute name="VALUE" x="3.23" y="83.976" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
-</element>
 <element name="H1" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="6" y="5" smashed="yes">
 <attribute name="NAME" x="6" y="6.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 </element>
@@ -1647,6 +1688,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="H4" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="159" y="95" smashed="yes">
 <attribute name="NAME" x="158.5" y="96.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+</element>
+<element name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="4.3" y="81.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.697" y="83.07" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="2.268" y="83.07" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 </elements>
 <signals>
@@ -1686,6 +1731,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </signal>
 <signal name="PWR+1">
 <contactref element="J4" pad="TIP"/>
+<contactref element="J8" pad="2"/>
+<wire x1="16.07" y1="85.69" x2="13.69" y2="85.69" width="0.508" layer="1"/>
+<wire x1="7.26" y1="79.26" x2="7" y2="79.26" width="0.508" layer="1"/>
+<wire x1="7" y1="79.26" x2="4.3" y2="79.26" width="0.508" layer="1"/>
+<wire x1="13.69" y1="85.69" x2="7.26" y2="79.26" width="0.508" layer="1"/>
+<contactref element="BAT1" pad="9V"/>
+<wire x1="25.33" y1="61.35" x2="7.42" y2="79.26" width="0.508" layer="1"/>
+<wire x1="7.42" y1="79.26" x2="7.26" y2="79.26" width="0.508" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="J4" pad="RING_SW"/>
@@ -2161,7 +2214,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <signal name="N$10">
 <contactref element="D7" pad="C"/>
 <contactref element="D5" pad="A"/>
-<contactref element="SW1" pad="1"/>
 <wire x1="22.86" y1="90.424" x2="22.86" y2="89.916" width="0.508" layer="1"/>
 <wire x1="22.86" y1="89.916" x2="22.86" y2="88.9" width="0.508" layer="1"/>
 <wire x1="24.384" y1="91.948" x2="22.86" y2="90.424" width="0.508" layer="1"/>
@@ -2169,21 +2221,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="25.908" y1="96.52" x2="24.384" y2="94.996" width="0.508" layer="1"/>
 <wire x1="22.86" y1="88.9" x2="22.59" y2="88.9" width="0.508" layer="1"/>
 <wire x1="25.908" y1="96.52" x2="26.4" y2="96.52" width="0.508" layer="1"/>
-<wire x1="4.572" y1="82.804" x2="4.572" y2="81.28" width="0.508" layer="1"/>
-<wire x1="8.128" y1="86.36" x2="4.572" y2="82.804" width="0.508" layer="1"/>
-<wire x1="8.128" y1="90.424" x2="8.128" y2="86.36" width="0.508" layer="1"/>
-<wire x1="12.7" y1="94.996" x2="8.128" y2="90.424" width="0.508" layer="1"/>
+<wire x1="8.128" y1="90.424" x2="12.7" y2="94.996" width="0.508" layer="1"/>
 <wire x1="17.78" y1="94.996" x2="12.7" y2="94.996" width="0.508" layer="1"/>
 <wire x1="22.86" y1="89.916" x2="17.78" y2="94.996" width="0.508" layer="1"/>
-<wire x1="4.572" y1="81.28" x2="4.5" y2="81" width="0.508" layer="1"/>
-</signal>
-<signal name="N$13">
-<contactref element="BAT1" pad="9V"/>
+<wire x1="8.128" y1="90.424" x2="8.128" y2="83.088" width="0.508" layer="1"/>
 <contactref element="J8" pad="1"/>
-<wire x1="10.16" y1="76.2" x2="4.572" y2="76.2" width="0.508" layer="1"/>
-<wire x1="24.892" y1="61.468" x2="10.16" y2="76.2" width="0.508" layer="1"/>
-<wire x1="4.572" y1="76.2" x2="4.5" y2="76.5" width="0.508" layer="1"/>
-<wire x1="24.892" y1="61.468" x2="25.33" y2="61.35" width="0.508" layer="1"/>
+<wire x1="8.128" y1="83.088" x2="5.588" y2="83.088" width="0.508" layer="1"/>
+<wire x1="5.588" y1="83.088" x2="4.3" y2="81.8" width="0.508" layer="1"/>
 </signal>
 <signal name="N$27">
 </signal>
@@ -2254,6 +2298,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="111.252" y1="93.472" x2="110.9" y2="93.82" width="0.508" layer="16"/>
 </signal>
 <signal name="N$25">
+</signal>
+<signal name="N$8">
 </signal>
 </signals>
 <mfgpreviewcolors>
