@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -767,7 +767,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="44.65" y="47.691" size="1.27" layer="28" ratio="10" rot="MR180"/>
 </element>
 <element name="R1" library="adafruit" package="R0603" value="1K" x="19.58" y="24.61" smashed="yes">
-<attribute name="NAME" x="20.091" y="28.299" size="0.8128" layer="25"/>
+<attribute name="NAME" x="19.791" y="25.799" size="0.8128" layer="25"/>
 </element>
 <element name="R2" library="adafruit" package="R0603" value="1K" x="19.37" y="21.01" smashed="yes">
 <attribute name="NAME" x="19.181" y="22.199" size="0.8128" layer="25"/>

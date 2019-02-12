@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1709,19 +1709,15 @@ high speed (Philips)</description>
 </instance>
 <instance part="IC3" gate="B" x="10.16" y="22.86" smashed="yes">
 <attribute name="NAME" x="11.43" y="26.035" size="1.778" layer="95"/>
-<attribute name="VALUE" x="11.43" y="17.78" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="C" x="12.7" y="38.1" smashed="yes">
 <attribute name="NAME" x="13.97" y="41.275" size="1.778" layer="95"/>
-<attribute name="VALUE" x="13.97" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="D" x="10.16" y="53.34" smashed="yes">
 <attribute name="NAME" x="11.43" y="56.515" size="1.778" layer="95"/>
-<attribute name="VALUE" x="11.43" y="48.26" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="F" x="-12.7" y="60.96" smashed="yes">
-<attribute name="NAME" x="-11.43" y="64.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-11.43" y="55.88" size="1.778" layer="96"/>
+<attribute name="NAME" x="-8.89" y="66.675" size="1.778" layer="95"/>
 </instance>
 <instance part="J1" gate="G$1" x="15.24" y="116.84" smashed="yes">
 <attribute name="NAME" x="11.684" y="122.428" size="1.778" layer="95" font="vector"/>
