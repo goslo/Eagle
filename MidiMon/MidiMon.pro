@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/jorge/OneDrive/Documents/EAGLE/projects/MidiMon/MidiMon.brd
 
-Start at      : 16:18:23 (2019-02-11)
-End at        : 16:22:25 (2019-02-11)
-Elapsed time  : 00:01:45
+Start at      : 16:06:47 (2019-04-02)
+End at        : 16:11:41 (2019-04-02)
+Elapsed time  : 00:03:24
 
-Signals       :    47   RoutingGrid: 4.92126 mil  Layers: 2
-Connections   :    97   predefined:  19 ( 0 Vias )
+Signals       :    49   RoutingGrid: 20 mil  Layers: 2
+Connections   :   105   predefined:  21 ( 0 Vias )
 
-Router memory :   5385616
+Router memory :   338316
 
-Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8
 
-Time per pass     :  00:00:30  00:00:21  00:00:18  00:00:20  00:00:16
-Number of Ripups  :         7         0         0         0         0
-max. Level        :         1         0         0         0         0
-max. Total        :        14         0         0         0         0
+Time per pass     :  00:03:13  00:00:02  00:00:01  00:00:01  00:00:01  00:00:01  00:00:01  00:00:02  00:00:01  00:00:01
+Number of Ripups  :         0         4         0         0         0         0         0         0         0         0
+max. Level        :         0         1         0         0         0         0         0         0         0         0
+max. Total        :         0         2         0         0         0         0         0         0         0         0
 
-Routed            :        78        78        78        78        78
-Vias              :        37        28        24        24        24
-Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         0        84        84        84        84        84        84        84        84        84
+Vias              :         0        57        55        49        47        47        47        47        47        47
+Resolution        :    20.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 97.9% finished. Polygons may have fallen apart.
+Final             : 97.1% finished. Polygons may have fallen apart.

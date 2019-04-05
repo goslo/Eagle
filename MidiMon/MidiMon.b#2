@@ -1919,8 +1919,6 @@ grid 2.54 mm</description>
 <contactref element="J2" pad="1"/>
 <via x="91.4" y="34.8" extent="1-16" drill="1"/>
 <via x="80.5" y="56" extent="1-16" drill="1"/>
-<contactref element="IC2" pad="5"/>
-<wire x1="62.01" y1="68.91" x2="54.55" y2="66.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="IC2" pad="2"/>
@@ -2024,7 +2022,9 @@ grid 2.54 mm</description>
 <wire x1="56.896" y1="67.564" x2="62.484" y2="61.976" width="0.508" layer="16"/>
 <wire x1="56.896" y1="68.072" x2="56.896" y2="67.564" width="0.508" layer="16"/>
 <wire x1="55.372" y1="69.596" x2="56.896" y2="68.072" width="0.508" layer="16"/>
+<wire x1="54.864" y1="69.596" x2="55.372" y2="69.596" width="0.508" layer="16"/>
 <wire x1="62.484" y1="60.452" x2="62.53" y2="59.95" width="0.508" layer="16"/>
+<wire x1="54.864" y1="69.596" x2="54.55" y2="69.52" width="0.508" layer="16"/>
 <wire x1="51.816" y1="71.12" x2="51.308" y2="71.628" width="0.508" layer="1"/>
 <wire x1="52.324" y1="71.12" x2="51.816" y2="71.12" width="0.508" layer="1"/>
 <wire x1="54.356" y1="69.088" x2="52.324" y2="71.12" width="0.508" layer="1"/>
@@ -2157,13 +2157,6 @@ grid 2.54 mm</description>
 <wire x1="88.392" y1="68.58" x2="87.884" y2="68.58" width="0.508" layer="1"/>
 <wire x1="62.484" y1="60.452" x2="62.53" y2="59.95" width="0.508" layer="1"/>
 <wire x1="88.392" y1="68.58" x2="88.5" y2="68.76" width="0.508" layer="1"/>
-<contactref element="IC2" pad="8"/>
-<wire x1="54.55" y1="69.52" x2="54.626" y2="69.596" width="0.508" layer="16"/>
-<wire x1="54.626" y1="69.596" x2="55.372" y2="69.596" width="0.508" layer="16"/>
-<wire x1="54.55" y1="69.52" x2="55.23163125" y2="69.52" width="0.508" layer="16"/>
-<wire x1="57.54403125" y1="71.8324" x2="59.3824" y2="71.8324" width="0.508" layer="16"/>
-<wire x1="59.3824" y1="71.8324" x2="61.42" y2="73.87" width="0.508" layer="16"/>
-<wire x1="55.23163125" y1="69.52" x2="57.54403125" y2="71.8324" width="0.508" layer="16"/>
 </signal>
 <signal name="N$17">
 <contactref element="IC1" pad="5"/>
