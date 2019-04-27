@@ -24452,7 +24452,7 @@ grid 2.54 mm</description>
 <part name="VR1" library="MusicThingModular" deviceset="BOURNS_3362P_TRIMMER" device="P"/>
 <part name="VR2" library="MusicThingModular" deviceset="BOURNS_3362P_TRIMMER" device="P"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-5%" value="10k"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-5%" value="10k"/>
+<part name="R4" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-5%" value="1k"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-5%" value="220"/>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="DO-1N4148" package3d_urn="urn:adsk.eagle:package:6240748/1"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-5%" value="10k"/>
