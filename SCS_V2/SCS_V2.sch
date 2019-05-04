@@ -3766,7 +3766,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.508" drill="1.016">
+<class number="0" name="default" width="0.508" drill="0.508">
 <clearance class="0" value="0.508"/>
 </class>
 </classes>
